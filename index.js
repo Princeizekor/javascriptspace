@@ -1,3 +1,74 @@
+// function move() {
+//     var elem = document.querySelector(".bar");   
+//     var width = 1;
+//     var id = setInterval(frame, 80);
+//     function frame() {
+//       if (width >= 70) {
+//         clearInterval(id);
+//       } else {
+//         width++; 
+//         elem.style.width = width + '%'; 
+//       }
+//     }
+//   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // var myButton = "First Button";
 // // function myFunction(arr) {
 // //     let myButton = "Checked";
@@ -108,54 +179,54 @@
 // }
 // alert(check)
 
-function myForloop(arr) {
-    var Prepare = 1;
+// function myForloop(arr) {
+//     var Prepare = 1;
     
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr[i].length; j++) {
-            Prepare = Prepare + arr[i][j];
-        }
-    }
-    return Prepare;
-}
-var Prepare = myForloop([[1,2,3],[4,5,6],[7,8,9]])
-console.log(Prepare)
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = 0; j < arr[i].length; j++) {
+//             Prepare = Prepare + arr[i][j];
+//         }
+//     }
+//     return Prepare;
+// }
+// var Prepare = myForloop([[1,2,3],[4,5,6],[7,8,9]])
+// console.log(Prepare)
 
-function checkFunction() {
-    return Math.floor(Math.random() * 30)
-}
-console.log(checkFunction())
+// function checkFunction() {
+//     return Math.floor(Math.random() * 30)
+// }
+// console.log(checkFunction())
 
-function randomFunction(min, max) {
-    return Math.floor(Math.random() * (max + min) + min)
-}
-console.log(randomFunction(30, 20))
+// function randomFunction(min, max) {
+//     return Math.floor(Math.random() * (max + min) + min)
+// }
+// console.log(randomFunction(30, 20))
 
-const fills = [3,2,1]
-function constFunction() {
-    "use strict" 
-    fills[0] = 1;
-    fills[1] = 2;
-    fills[2] = 3;
-    fills.push(4,5,6)
-}
-constFunction()
-console.log(fills)
+// const fills = [3,2,1]
+// function constFunction() {
+//     "use strict" 
+//     fills[0] = 1;
+//     fills[1] = 2;
+//     fills[2] = 3;
+//     fills.push(4,5,6)
+// }
+// constFunction()
+// console.log(fills)
 
-var Anonymous = (arr1,arr2) => arr1.concat(arr2);
-console.log([1,2,3,4,5,6,7,8,9],[9,8,7,6,5,4,3,2,1])
+// var Anonymous = (arr1,arr2) => arr1.concat(arr2);
+// console.log([1,2,3,4,5,6,7,8,9],[9,8,7,6,5,4,3,2,1])
 
-var Anonymous = (arr1,arr2) => arr1.concat(arr2);
-console.log(Anonymous([1,2,3,4,5,6,7,8,9],[9,8,7,6,5,4,3,2,1]))
+// var Anonymous = (arr1,arr2) => arr1.concat(arr2);
+// console.log(Anonymous([1,2,3,4,5,6,7,8,9],[9,8,7,6,5,4,3,2,1]))
 
-const LOCAL_FORCAST = {
-    today: {rain: 12, sun: 10},
-    tomorrow: {rain: 10, sun: 12}
-};
+// const LOCAL_FORCAST = {
+//     today: {rain: 12, sun: 10},
+//     tomorrow: {rain: 10, sun: 12}
+// };
 
-function morning(forcast) {
-    "use strict"
-    const {tomorrow : {sun : secondforcast}} = forcast;
-    return secondforcast;
-}
-console.log(morning(LOCAL_FORCAST))
+// function morning(forcast) {
+//     "use strict"
+//     const {tomorrow : {sun : secondforcast}} = forcast;
+//     return secondforcast;
+// }
+// console.log(morning(LOCAL_FORCAST))

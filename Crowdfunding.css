@@ -1,0 +1,1061 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Commissioner', sans-serif;
+    background: whitesmoke;
+    height: 2000px;
+}
+#navbar {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background-image: url('./crowdfunding-product-page-main/images/image-hero-desktop.jpg');
+    z-index: -1;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 150px 50px 150px;
+    z-index: 1;
+}
+.list-of-head {
+    display: flex;
+}
+.list-of-head li {
+    list-style-type: none;
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+}
+.list-of-head li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#card {
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    left: 25%;
+    top: 320px;
+    border-radius: 8px;
+    background: white;
+    text-align: center;
+}
+.master-craft-image {
+    position: absolute;
+    bottom: 90%;
+    left: 45%;
+}
+#cardText {
+    margin-top: 8%;
+    font-size: 27px;
+    font-weight: bold;
+}
+#Cardtext {
+    margin-top: 2%;
+    color:hsl(0, 0%, 48%);
+}
+.closingBar {
+    display: none;
+}
+.auto {
+    display: none;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.firstButton {
+    width: 25%;
+    font-size: 15px;
+    color: whitesmoke;
+    background: hsl(176, 50%, 47%);
+    height: 50px;
+    margin-left: 8%;
+    margin-top: 4.5%;
+    cursor: pointer;
+}
+.firstButton:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+#firstModal {
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    display: none;
+    height: 2000px;
+    padding: auto;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000000;
+}
+.modal-content {
+    width: 40%;
+    position: absolute;
+    height: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30%;
+    top: 23%;
+    z-index: 1000000;
+}
+.modal-content img {
+    margin-top: 5%;
+    width: 85px
+}
+.modal-content h1 {
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.modal-content p {
+    color: hsl(0, 0%, 48%);
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.modal-content .close {
+    margin-top: 2.5%;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: hsl(176, 50%, 47%);
+    cursor: pointer;
+}
+.modal-content .close:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+#secondModal {
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    height: 2000px;
+    padding: auto;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000000;
+    display: none;
+}
+.modalContent {
+    width: 40%;
+    position: absolute;
+    height: 780px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30%;
+    top: 10%;
+    z-index: 1000000;
+}
+.modalContent p {
+    font-size: 14.6px;
+    color: hsl(0, 0%, 48%);
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.content1 {
+    width: 100%;
+    border: 1px solid silver;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.hap {
+    display: flex;
+}
+.hap h2 {
+    margin: 0%;
+}
+.color {
+    color: hsl(176, 50%, 47%);
+    margin-left: 2%;
+
+}
+.flex1 {
+    display: flex;
+}
+.content1 .radio {
+    display: flex;
+}
+.radio-text {
+    margin-left: 4%;
+}
+.radio-text h2 {
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.radio-text h2:hover {
+    color: hsl(176, 50%, 47%);
+}
+.radio-text p {
+    font-size: 12.5px;
+    line-height: 20px;
+}
+.content2 {
+    width: 100%;
+    border: 1px solid silver;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 4%;
+    opacity: 40%;
+}
+.flexs {
+    display: flex;
+    justify-content: space-between;
+}
+.haps {
+    display: flex;
+}
+.haps h2 {
+    margin: 0%;
+}
+.colors {
+    color: hsl(176, 50%, 47%);
+    margin-left: 2%;
+
+}
+.flexes {
+    display: flex;
+}
+.content2 .radio {
+    display: flex;
+}
+.radio-text {
+    margin-left: 4%;
+}
+.radio-text h2 {
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.radio-text p {
+    font-size: 12.5px;
+    line-height: 20px;
+}
+.close1 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.close1 {
+    display: flex;
+    justify-content: space-between;
+}
+.close1 img {
+    width: 15px;
+    height: 15px;
+}
+.secondButton {
+    width: 25%;
+    font-size: 15px;
+    color: rgb(54, 51, 51);
+    font-weight: bold;
+    background: whitesmoke;
+    height: 50px;
+    margin-left: 8%;
+    margin-top: 4.5%;
+    border-radius: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 8%;
+    cursor: pointer;
+}
+.secondButton:hover {
+    color: hsl(176, 72%, 28%);
+}
+.secondButton p {
+    margin-top: 10%;
+    margin-right: 18%;
+}
+.sure {
+    width: 100%;
+}
+#card2 {
+    width: 50%;
+    height: 160px;
+    margin-left: 25%;
+    margin-top: 14%;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.cal {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    margin: 2%;
+}
+.first {
+    text-align: center;
+    width: 1fr;
+    border-right: 1px solid silver;
+    padding: 0px 40px 0px 20px;
+}
+.first h1 {
+    font-size: 30px;
+}
+.first p {
+    color: hsl(0, 0%, 48%);
+    font-size: 13px;
+}
+.second {
+    text-align: center;
+    width: 1fr;
+    border-right: 1px solid silver;
+    padding: 0px 50px 0px 20px;
+}
+.second h1 {
+    font-size: 30px;
+}
+.second p {
+    color: hsl(0, 0%, 48%);
+    font-size: 13px;
+}
+.third {
+    text-align: center;
+    width: 1fr;
+    padding: 0px 150px 0px 0px;
+}
+.third h1 {
+    font-size: 30px;
+}
+.third p {
+    color: hsl(0, 0%, 48%);
+    font-size: 13px;
+}
+.pass {
+    width: 100%;
+    padding: 0px 30px 0px 30px;
+}
+.progress {
+    position: relative;
+    width: 100%;
+    background: whitesmoke;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.bar {
+    position: absolute;
+    width: 70%;
+    background: hsl(176, 72%, 28%);
+    height: 10px;
+    border-radius: 50px;
+}
+#card3 {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border-radius: 8px;
+    padding: 25px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+#card3 h2 {
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+#card3 .type-text1 {
+    color: hsl(0, 0%, 48%);
+    line-height: 25px;
+    margin-bottom: 5%;
+}
+#card3 .type-text2 {
+    color: hsl(0, 0%, 48%);
+    line-height: 25px;
+    margin-bottom: 5%;
+}
+#card4 {
+    padding: 20px 30px 20px 30px;
+    border: 1px solid silver;
+    border-radius: 7px;
+    margin-right: 1%;
+    margin-bottom: 5%;
+}
+#card4 p {
+    color: hsl(0, 0%, 48%);
+    line-height: 25px;
+    margin-bottom: 5%;
+    font-size: 14.7px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.pledge {
+    color:  hsl(176, 50%, 47%);
+}
+.flat {
+    display: flex;
+    justify-content: space-between;
+}
+.flat .plain {
+    display: flex;
+}
+.plain h2 {
+    font-size: 30px;
+}
+.flat button {
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color:hsl(176, 50%, 47%);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+#card5 {
+    padding: 20px 30px 20px 30px;
+    border: 1px solid silver;
+    border-radius: 7px;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    opacity: 40%;
+}
+#card5 p {
+    color: hsl(0, 0%, 48%);
+    line-height: 25px;
+    margin-bottom: 5%;
+    font-size: 14.2px;
+}
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+}
+.pledge1 {
+    color:  hsl(176, 50%, 47%);
+}
+.flat1 {
+    display: flex;
+    justify-content: space-between;
+}
+.flat1 .plain1 {
+    display: flex;
+}
+.flat1 button {
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color:hsl(0, 0%, 48%);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+.none {
+    display: none;
+}
+.menu {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    #navbar {
+        width: 100%;
+        height: 600px;
+        object-fit: contain;
+        background-image: url('./crowdfunding-product-page-main/images/image-hero-mobile.jpg');
+        z-index: -1;
+    }
+    #nav {
+        width: 100%;
+        max-width: 1440px;
+        padding: 50px 50px 50px 50px;
+    }
+    .menu {
+        display: block;
+        width: 25px;
+    }
+    .menu1 {
+        display: block;
+        width: 25px;
+    }
+    .closingBar {
+        display: none;
+        top: 4.7%;
+        width: 25px;
+        position: absolute;
+        z-index: 100000;
+    }
+    #secondModal {
+        height: 2650px;
+    }
+    #firstModal {
+        height: 2650px;
+    }
+    .modalContent {
+        width: 90%;
+        margin: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .modal-content {
+        width: 90%;
+        margin: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .secondButton {
+        display: none;
+    }
+    .none {
+        display: block;
+        margin-top: 5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+    .none img {
+        width: 80px;
+    }
+    .firstButton {
+        width: 78%;
+        font-size: 30px;
+        font-weight: bold;
+        color: whitesmoke;
+        background: hsl(176, 50%, 47%);
+        height: 80px;
+        margin-left: 0%;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    #card {
+        width: 90%;
+        height: 400px;
+        left: 5%;
+        right: 5%;
+        top: 450px;
+        text-align: center;
+        padding: 30px;
+    }
+    .master-craft-image {
+        width: 80px;
+    }
+    #cardText {
+        font-size: 40px;
+    }
+    #Cardtext {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .list-of-head {
+        display: none;
+    }
+    .auto {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        display: none;
+        height: 2620px;
+        z-index: 1;
+        transition: 0.5s all ease;
+    }
+    .listofhead {
+        width: 90%;
+        top: 4.5%;
+        position: absolute;
+        padding: 30px;
+        background-color: white;
+        height: 400px;
+        margin-left: 5%;
+        border-radius: 10px;
+        text-align: left;
+        z-index: 1000000;
+    }
+    .listofhead .list {
+        list-style-type: none;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 25px 30px 20px 30px;
+        text-align: left;
+        margin-top: 4%;
+        border-bottom: 1px solid hsl(0, 0%, 85%);
+        cursor: pointer;
+    }
+    .listofhead li a {
+        text-decoration: none;
+        color: hsl(0, 0%, 0%);
+    }
+    .get {
+        border: none;
+        list-style-type: none;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 25px 30px 20px 30px;
+        text-align: left;
+        margin-top: 4%;
+        cursor: pointer;
+    }
+    .sure {
+        width: 100%;
+    }
+    #card2 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 50%;
+        margin-bottom: 8%;
+        height: 520px;
+        padding: 30px;
+    }
+    .cal {
+        flex-direction: column;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+        border: none;
+    }
+    .first {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+        border-bottom: 1px solid silver;
+    }
+    .first h1 {
+        font-size: 50px;
+    }
+    .first p {
+        font-size: 23px;
+    }
+    .second {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+        border-bottom: 1px solid silver;
+    }
+    .second h1 {
+        font-size: 50px;
+    }
+    .second p {
+        font-size: 23px;
+    }
+    .third {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+    }
+    .third h1 {
+        font-size: 50px;
+    }
+    .third p {
+        font-size: 23px;
+    }
+    .progress {
+        height: 18px;
+    }
+    .bar {
+        height: 18px;
+        background-color: hsl(176, 50%, 47%);
+    }
+    #card3 {
+        width: 90%;
+        margin-left: 5%;
+        max-width: 1440px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #navbar {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+        background-image: url('./crowdfunding-product-page-main/images/image-hero-mobile.jpg');
+        z-index: -1;
+    }
+    .menu {
+        display: block;
+        width: 20px;
+    }
+    .menu1 {
+        width: 20px;
+    }
+    .closingBar {
+        top: 8%;
+        width: 20px;
+        display: none;
+    }
+    #secondModal {
+        height: 2670px;
+    }
+    #firstModal {
+        height: 2670px;
+    }
+    .modalContent {
+        width: 90%;
+        height: 970px;
+        margin: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .modalContent p {
+        font-size: 14px;
+    }
+    .modal-content {
+        width: 90%;
+        height: 450px;
+        margin: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .hap {
+        flex-direction: column;
+    }
+    .haps {
+        flex-direction: column;
+    }
+    .none {
+        display: block;
+        margin-top: 5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+    .none img {
+        width: 50px;
+    }
+    .firstButton {
+        width: 70%;
+        font-size: 15px;
+        font-weight: bold;
+        color: whitesmoke;
+        background: hsl(176, 50%, 47%);
+        height: 50px;
+        margin-left: 0%;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    #card {
+        width: 90%;
+        height: 250px;
+        left: 5%;
+        right: 5%;
+        top: 350px;
+        text-align: center;
+        padding: 30px;
+    }
+    .master-craft-image {
+        width: 50px;
+    }
+    #cardText {
+        font-size: 20px;
+    }
+    #Cardtext {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .list-of-head {
+        display: none;
+    }
+    .sure {
+        width: 100%;
+    }
+    #card2 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 65%;
+        margin-bottom: 8%;
+        height: 430px;
+        padding: 30px;
+    }
+    .first {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+        border-bottom: 1px solid silver;
+    }
+    .first h1 {
+        font-size: 30px;
+    }
+    .first p {
+        font-size: 15px;
+    }
+    .second {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+        border-bottom: 1px solid silver;
+    }
+    .second h1 {
+        font-size: 30px;
+    }
+    .second p {
+        font-size: 15px;
+    }
+    .third {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+    }
+    .third h1 {
+        font-size: 30px;
+    }
+    .third p {
+        font-size: 15px;
+    }
+    .progress {
+        height: 10px;
+    }
+    .bar {
+        height: 10px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .flat {
+        flex-direction: column;
+    }
+    .wrapper1 {
+        flex-direction: column;
+    }
+    .flat1 {
+        flex-direction: column;
+    }
+.auto {
+    height: 2650px;
+}
+.listofhead {
+    top: 4.5%;
+    padding: 20px 30px 30px 30px;
+    height: 250px;
+}
+.listofhead .list {
+    font-size: 20px;
+    padding: 20px 25px 20px 25px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.listofhead li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+.get {
+    border: none;
+    font-size: 20px;
+    padding: 20px 25px 20px 25px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+}
+@media screen and (max-width: 1023px) {
+    #navbar {
+        width: 100%;
+        height: 600px;
+        object-fit: contain;
+        background-image: url('./crowdfunding-product-page-main/images/image-hero-mobile.jpg');
+        z-index: -1;
+    }
+    #nav {
+        width: 100%;
+        max-width: 1440px;
+        padding: 50px 50px 50px 50px;
+    }
+    .menu {
+        display: block;
+        width: 25px;
+    }
+    .menu1 {
+        display: block;
+        width: 25px;
+    }
+    .closingBar {
+        display: none;
+        top: 4.7%;
+        width: 25px;
+        position: absolute;
+        z-index: 100000;
+    }
+    #secondModal {
+        height: 2650px;
+    }
+    #firstModal {
+        height: 2650px;
+    }
+    .modalContent {
+        width: 90%;
+        margin: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .modal-content {
+        width: 90%;
+        margin: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .secondButton {
+        display: none;
+    }
+    .none {
+        display: block;
+        margin-top: 5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+    .none img {
+        width: 80px;
+    }
+    .firstButton {
+        width: 78%;
+        font-size: 30px;
+        font-weight: bold;
+        color: whitesmoke;
+        background: hsl(176, 50%, 47%);
+        height: 80px;
+        margin-left: 0%;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    #card {
+        width: 90%;
+        height: 400px;
+        left: 5%;
+        right: 5%;
+        top: 450px;
+        text-align: center;
+        padding: 30px;
+    }
+    .master-craft-image {
+        width: 80px;
+    }
+    #cardText {
+        font-size: 40px;
+    }
+    #Cardtext {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .list-of-head {
+        display: none;
+    }
+    .auto {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        display: none;
+        height: 2620px;
+        z-index: 1;
+        transition: 0.5s all ease;
+    }
+    .listofhead {
+        width: 90%;
+        top: 4.5%;
+        position: absolute;
+        padding: 30px;
+        background-color: white;
+        height: 400px;
+        margin-left: 5%;
+        border-radius: 10px;
+        text-align: left;
+        z-index: 1000000;
+    }
+    .listofhead .list {
+        list-style-type: none;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 25px 30px 20px 30px;
+        text-align: left;
+        margin-top: 4%;
+        border-bottom: 1px solid hsl(0, 0%, 85%);
+        cursor: pointer;
+    }
+    .listofhead li a {
+        text-decoration: none;
+        color: hsl(0, 0%, 0%);
+    }
+    .get {
+        border: none;
+        list-style-type: none;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 25px 30px 20px 30px;
+        text-align: left;
+        margin-top: 4%;
+        cursor: pointer;
+    }
+    .sure {
+        width: 100%;
+    }
+    #card2 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 40%;
+        margin-bottom: 8%;
+        height: 520px;
+        padding: 30px;
+    }
+    .cal {
+        flex-direction: column;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+        border: none;
+    }
+    .first {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+        border-bottom: 1px solid silver;
+    }
+    .first h1 {
+        font-size: 50px;
+    }
+    .first p {
+        font-size: 23px;
+    }
+    .second {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+        border-bottom: 1px solid silver;
+    }
+    .second h1 {
+        font-size: 50px;
+    }
+    .second p {
+        font-size: 23px;
+    }
+    .third {
+        border: none;
+        margin: 0%;
+        padding: 30px;
+    }
+    .third h1 {
+        font-size: 50px;
+    }
+    .third p {
+        font-size: 23px;
+    }
+    .progress {
+        height: 18px;
+    }
+    .bar {
+        height: 18px;
+        background-color: hsl(176, 50%, 47%);
+    }
+    #card3 {
+        width: 90%;
+        margin-left: 5%;
+        max-width: 1440px;
+    }
+}
