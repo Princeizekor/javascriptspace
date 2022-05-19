@@ -509,6 +509,7 @@ body {
     .modalContent {
         width: 90%;
         margin: 0%;
+        height: 830px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -703,7 +704,7 @@ body {
     }
     .modalContent {
         width: 90%;
-        height: 970px;
+        height: 1000px;
         margin: 0%;
         margin-left: 5%;
         margin-right: 5%;
@@ -713,7 +714,7 @@ body {
     }
     .modal-content {
         width: 90%;
-        height: 450px;
+        height: 430px;
         margin: 0%;
         margin-left: 5%;
         margin-right: 5%;
@@ -879,7 +880,8 @@ body {
     }
     .closingBar {
         display: none;
-        top: 4.7%;
+        top: 4%;
+        margin-bottom: 2%;
         width: 25px;
         position: absolute;
         z-index: 100000;
@@ -893,6 +895,7 @@ body {
     .modalContent {
         width: 90%;
         margin: 0%;
+        height: 850px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -963,7 +966,7 @@ body {
         position: absolute;
         padding: 30px;
         background-color: white;
-        height: 400px;
+        height: 430px;
         margin-left: 5%;
         border-radius: 10px;
         text-align: left;

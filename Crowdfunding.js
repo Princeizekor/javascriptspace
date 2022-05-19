@@ -97,6 +97,7 @@ window.onclick = function(event) {
     }
 }
 
+
 done.onclick = function() {
     green.style.display = "none";
     done.style.display ="none";
